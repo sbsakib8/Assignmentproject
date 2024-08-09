@@ -1,0 +1,81 @@
+@media screen and (max-width: 415px) {
+/* header style start */
+     nav ul{
+       display: none;
+     }
+     .join-div{
+        display: flex;
+        margin-left: 240px;
+    }
+
+/* header style end*/
+/* ++++++++++++++++++++++++++++++ */
+/* offer style start */
+
+    .offer img{
+        width: 850px;
+        height: 1200px;
+        object-fit:cover
+    }
+    .main-offer{
+        left: 60px;
+        width: 45rem;
+        height: 644px;
+        padding-top: 150px;
+    } 
+    .main-offer h2{
+        margin-top: -200px;
+    }
+    .main-input{
+        width: 642px;
+    }
+    .input{
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    .offer-btn{
+       margin-top: 100px;
+    }
+    .offer-btn1{
+        width: 400px;
+       font-weight: 700;
+    }
+    .offer-btn2{
+        font-weight: 700;
+    }
+    .zappr{
+       padding: 20px 88px 20px 88px;
+    }
+    .zappr a{
+        font-size: 30px;
+        width: 700;
+    }
+    /* offer style end */
+/* ++++++++++++++++++++++++++++++ */
+/* buy & sell style start */
+.sell-company{
+    width: 76rem;
+    height: 370px;
+    background-color: #FDE24F;
+    border-bottom: 1px solid #000000;
+    margin-top: -5px;
+}
+.sell-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 34px;
+    color: #000000;
+    padding-top:50px;
+}
+.sell-img{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+  }
