@@ -31,6 +31,11 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    position: fixed;
+    z-index: 99;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 1px 1px 8px ;
  }
  .header-img img{
     width: 200px;
@@ -38,11 +43,12 @@ body{
  }
  nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
  }
  ul li{
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
     font-weight: 500;
     font-size: 22px;
     & a{
@@ -52,9 +58,7 @@ body{
     
  }
  ul li:hover{
-    background-color: antiquewhite;
-    border: 1px solid #000000;
-    border-radius: 5px;
+    background-color: #f8f8f8;
  }
 /* btn style */
 .login{
@@ -308,4 +312,172 @@ body{
     background-color: #000000;
     top: -40px;
     right: 34px;
+}
+/* buy & sell  style end */
+/* ++++++++++++++++++++++++++++++ */
+/* buymain & sellmain style start */
+.sell-buymain{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #000000;
+    grid-row: 200px;
+    background-color: #f8f8f8;
+}
+.sell-buymain .line{
+    width: 2px;
+    height: 500px;
+    background-color: #000000;
+}
+.buy-main{
+    margin-bottom: 20px;
+}
+.buy-main .child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    width: 426px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: -140px;
+    margin-bottom: 30px;
+}
+.buy-main h3{
+    margin-bottom: 40px;
+    margin-left: -130px;
+    font-weight: 500;
+    font-size: 34px;
+ }
+ .buy-main .btn{
+    width: 237px;
+    height: 49px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: -50px;
+}
+ 
+.child img{
+    position: relative;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+
+}
+.child p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+
+}
+.sell-main{
+    margin-bottom: 20px;
+}
+.sell-main .child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    width: 426px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    margin-bottom: 30px;
+}
+.sell-main h3{
+    margin-bottom: 40px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 34px;
+ }
+.sell-main .btn{
+    width: 237px;
+    height: 49px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 180px;
+}
+/* buymain & sellmain  style end */
+/* ++++++++++++++++++++++++++++++ */
+/* sign-text style start */
+.sign-text{
+    background-color: #CFBAFF;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-text h2{
+    font-size: 75px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+}
+.sign-text a{
+    width: 265px;
+    height: 69px;
+    border-radius: 30px;
+    padding: 15px 45px 15px 45px;
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+/* buymain & sellmain  style end */
+/* ++++++++++++++++++++++++++++++ */
+/* sign-text style start */
+.footer{
+    background-color: #000000;
+    height: 550px;
+    color: #fff;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+.footer-child{
+    margin-top: 100px;
+
+}
+
+
+.footer-child h3{
+   margin-bottom: 40px;
+   font-weight: 600;
+   font-size: 28px;
+}
+.footer-child p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-end{
+   margin-top: 80px;
+}
+.footer-logo{
+   position: relative;
+   top: -230px;
+   left: -40px;
+}
+.footer-end{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
 }
