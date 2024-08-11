@@ -8,7 +8,22 @@
 }
 body{
     font-family: "Inter", sans-serif;
+  
 }
+  /*============== custom scroll bar============ */
+  ::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color:#00EBC7;
+}
+::-webkit-scrollbar-thumb{
+    background: #FDE24F;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #CFBAFF;
+}
+/*============== custom scroll bar end============ */
  /* costom style  */
  .btn{
     width: 232px;
