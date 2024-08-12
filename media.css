@@ -52,7 +52,7 @@
     
 }
 @media screen and (max-width: 740px){
-    
+   
     .offer img{
         width: 80rem;
         height: 1100px;
@@ -109,6 +109,9 @@
 /* offer style end */
 /* ++++++++++++++++++++++++++++++ */
 /* buy & sell style start */
+.servis-line{
+display: none;
+}
 .main-servis{
     width:74rem;
     height: 130rem;
@@ -298,7 +301,7 @@
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 515px) {
 /* header style start */
      nav ul{
        display: none;
@@ -307,7 +310,32 @@
         display: flex;
         margin-left: 240px;
     }
-
+    .header-img img{
+        width: 300px;
+        height: 70px;
+     }
+    .login{
+        width: 214px;
+        height: 69px;
+        top: 0px;
+        right: 40px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .get{
+        position: relative;
+        width: 200px;
+        height: 69px;
+        font-size: 25px;
+        font-weight: 700;
+        right: 30px;
+    }
+    .would{
+        position: relative;
+        width: 66px;
+        height: 66px;
+        top: 0px;
+    }
 /* header style end*/
 /* ++++++++++++++++++++++++++++++ */
 /* offer style start */
@@ -318,14 +346,15 @@
         object-fit:cover
     }
     .main-offer{
-        left: 60px;
+        top: 320px;
+        left: 120px;
         width: 65rem;
         height: 644px;
         padding-top: 150px;
     } 
     .main-offer h2{
         margin-top: -200px;
-        font-size: 60px;
+        font-size: 90px;
     }
     .main-input{
         width: 70rem;
@@ -333,15 +362,25 @@
     .input{
         margin-left: 10px;
         font-weight: 700;
+        font-size: 40px;
+        width: 200px;
+        height: 80px;
+        border-radius: 20px;
     }
     .offer-btn{
        margin-top: 100px;
     }
     .offer-btn1{
-        width: 400px;
+        width: 600px;
+        height: 80px;
        font-weight: 700;
+       font-size: 40px;
+       border-radius: 20px;
     }
     .offer-btn2{
+        font-size: 40px;
+        height: 70px;
+        width: 300px;
         font-weight: 700;
     }
     .zappr{
@@ -356,11 +395,15 @@
 /* buy & sell style start */
 .sell-company{
     width: 80rem;
-   
+    height: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
 }
 .sell-title{
     font-weight: 700;
-    font-size: 54px;
+    font-size: 84px;
 }
 .sell-img{
     margin-top: 100px;
@@ -370,80 +413,99 @@
 /* buy & sell style start */
 .main-servis{
     width:74rem;
-    height: 130rem;
+    height: 290rem;
     border: 0px 0px 1px 0px;
     background-color: #FFFFFF;
     color: #000000;
 }
+.servis-line{
+    display: none;
+}
 .servis-title{
-    font-size: 34px;
+    font-size: 64px;
     font-weight: 700;
 }
 .servis{
-   
     flex-direction: column;
 }
 .servis-1{
-    width: 700px;
-    height: 379px;
+    width: 900px;
+    height: 679px;
+    margin-bottom: 100px;
  
 }
+.servis-1 img{
+    width: 400px;
+    height: 400px;
+}
 .servis-1 h3{
-    font-size: 64px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 700;
 }
 .servis-1 p{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 500;
     padding: 45px;
 }
 .servis-1 a{
-    font-size: 26px;
+    font-size: 66px;
     font-weight: 600;
 }
 .servis-2{
-    margin-top: 200px;
-    width: 700px;
-    height: 379px;
+    margin-top: 400px;
+    width: 900px;
+    height: 679px;
+}
+.servis-2 img{
+    width: 400px;
+    height: 400px;
 }
 .servis-2 h3{
-    font-size: 64px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 700;
 }
 .servis-2 p{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 500;
     padding: 45px;
-
 }
 .servis-2 a{
-    font-size: 26px;
+    font-size: 66px;
     font-weight: 600;
+   
 }
 .servis-3{
-    margin-top: 200px;
-    width: 700px;
-    height: 379px;
+    margin-top: 700px;
+    width: 900px;
+    height: 679px;
+}
+.servis-3 img{
+    width: 400px;
+    height: 400px;
 }
 .servis-3 h3{
-    font-size: 64px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 700;
 }
 .servis-3 p{
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 500;
     padding: 45px;
 }
 .servis-3 a{
-    font-size: 26px;
+    font-size: 66px;
     font-weight: 600;
+   
 }
 .servis-btn{
-    top: 370px;
+    top: 970px;
+    left: 400px;
+    width: 620px;
+    height: 140px;
 }
 .servis-btn a{
-    font-size: 32px;
-    width: 700;
+    font-size: 72px;
+    font-weight: 700;
 }
 /* buy & sell  style end */
 /* ++++++++++++++++++++++++++++++ */
@@ -457,7 +519,6 @@
    display: none;
 }
 .buy-main{
-
     margin-bottom: 20px;
 }
 .buy-main .child{
@@ -473,11 +534,16 @@
     font-weight: 700;
     font-size: 120px;
  }
- .buy-main .btn{
-    width: 237px;
-    height: 100px; 
+ .buy-main.btn{
+    width: 337px;
+    height: 100px;
     top: 30px;
     left: 500px;
+    font-size: 80px;
+}
+.buy-btn{
+width: 400px;
+height: 400px;
 }
  
 .child img{
@@ -516,7 +582,7 @@
 /* sign-text style start */
 .sign-text{
     width: 80rem;
-    height: 500px;
+    height: 900px;
     
 }
 .sign-text h2{
@@ -524,9 +590,10 @@
     font-weight: 600;
 }
 .sign-text a{
-    height: 80px;
-    padding: 25px 45px 15px 45px;
-    font-size: 32px;
+    height: 90px;
+    width: 500px;
+    padding: 29px 45px 15px 45px;
+    font-size: 62px;
     font-weight: 600;
 }
 /*sign-text style end */
@@ -549,17 +616,328 @@
 .footer-logo{
    top: -380px;
    left: 0px;
-
 }
 
 
-
-
-
-
-
-
-
-
-
   }
+
+  /* +++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++ */
+  @media screen and (max-width: 415px) {
+    /* header style start */
+         nav ul{
+           display: none;
+         }
+         .join-div{
+            display: flex;
+            margin-left: 240px;
+        }
+        .header-img img{
+            width: 300px;
+            height: 70px;
+         }
+        .login{
+            width: 214px;
+            height: 69px;
+            top: 0px;
+            right: 40px;
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .get{
+            position: relative;
+            width: 200px;
+            height: 69px;
+            font-size: 25px;
+            font-weight: 700;
+            right: 30px;
+        }
+        .would{
+            position: relative;
+            width: 66px;
+            height: 66px;
+            top: 0px;
+        }
+    /* header style end*/
+    /* ++++++++++++++++++++++++++++++ */
+    /* offer style start */
+    
+        .offer img{
+            width: 80rem;
+            height: 1200px;
+            object-fit:cover
+        }
+        .main-offer{
+            top: 320px;
+            left: 120px;
+            width: 65rem;
+            height: 644px;
+            padding-top: 150px;
+        } 
+        .main-offer h2{
+            margin-top: -200px;
+            font-size: 90px;
+        }
+        .main-input{
+            width: 70rem;
+        }
+        .input{
+            margin-left: 10px;
+            font-weight: 700;
+            font-size: 40px;
+            width: 200px;
+            height: 80px;
+            border-radius: 20px;
+        }
+        .offer-btn{
+           margin-top: 100px;
+        }
+        .offer-btn1{
+            width: 600px;
+            height: 80px;
+           font-weight: 700;
+           font-size: 40px;
+           border-radius: 20px;
+        }
+        .offer-btn2{
+            font-size: 40px;
+            height: 70px;
+            width: 300px;
+            font-weight: 700;
+        }
+        .zappr{
+           padding: 20px 88px 20px 88px;
+        }
+        .zappr a{
+            font-size: 35px;
+            width: 700;
+        }
+        /* offer style end */
+    /* ++++++++++++++++++++++++++++++ */
+    /* buy & sell style start */
+    .sell-company{
+        width: 80rem;
+        height: 800px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+    }
+    .sell-title{
+        font-weight: 700;
+        font-size: 84px;
+    }
+    .sell-img{
+        margin-top: 100px;
+    }
+    /* offer style end */
+    /* ++++++++++++++++++++++++++++++ */
+    /* buy & sell style start */
+    .main-servis{
+        width:74rem;
+        height: 290rem;
+        border: 0px 0px 1px 0px;
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    .servis-line{
+        display: none;
+    }
+    .servis-title{
+        font-size: 64px;
+        font-weight: 700;
+    }
+    .servis{
+        flex-direction: column;
+    }
+    .servis-1{
+        width: 900px;
+        height: 679px;
+        margin-bottom: 100px;
+     
+    }
+    .servis-1 img{
+        width: 400px;
+        height: 400px;
+    }
+    .servis-1 h3{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .servis-1 p{
+        font-size: 80px;
+        font-weight: 500;
+        padding: 45px;
+    }
+    .servis-1 a{
+        font-size: 66px;
+        font-weight: 600;
+    }
+    .servis-2{
+        margin-top: 400px;
+        width: 900px;
+        height: 679px;
+    }
+    .servis-2 img{
+        width: 400px;
+        height: 400px;
+    }
+    .servis-2 h3{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .servis-2 p{
+        font-size: 80px;
+        font-weight: 500;
+        padding: 45px;
+    }
+    .servis-2 a{
+        font-size: 66px;
+        font-weight: 600;
+       
+    }
+    .servis-3{
+        margin-top: 700px;
+        width: 900px;
+        height: 679px;
+    }
+    .servis-3 img{
+        width: 400px;
+        height: 400px;
+    }
+    .servis-3 h3{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .servis-3 p{
+        font-size: 80px;
+        font-weight: 500;
+        padding: 45px;
+    }
+    .servis-3 a{
+        font-size: 66px;
+        font-weight: 600;
+       
+    }
+    .servis-btn{
+        top: 970px;
+        left: 400px;
+        width: 620px;
+        height: 140px;
+    }
+    .servis-btn a{
+        font-size: 72px;
+        font-weight: 700;
+    }
+    /* buy & sell  style end */
+    /* ++++++++++++++++++++++++++++++ */
+    /* buymain & sellmain style start */
+    .sell-buymain{
+        width: 80rem;
+        height: 150rem;
+        flex-direction: column;
+    }
+    .sell-buymain .line{
+       display: none;
+    }
+    .buy-main{
+        margin-bottom: 20px;
+    }
+    .buy-main .child{
+        width: 72rem;
+        height: 220px;
+        left: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .buy-main h3{
+        margin-bottom: 70px;
+        margin-left: 0px;
+        font-weight: 700;
+        font-size: 120px;
+     }
+     .buy-main.btn{
+        width: 337px;
+        height: 100px;
+        top: 30px;
+        left: 500px;
+        font-size: 80px;
+    }
+    .buy-btn{
+    width: 400px;
+    height: 400px;
+    }
+     
+    .child img{
+        left: 15px;
+        width: 150px;
+        height: 150px;
+    
+    }
+    .child p{
+        font-weight: 700;
+        font-size: 55px;
+    }
+    .sell-main{
+        margin-bottom: 20px;
+    }
+    .sell-main .child{
+        width: 72rem;
+        height: 220px;
+        left: 0px;
+        margin-bottom: 50px;
+    }
+    .sell-main h3{
+        margin-bottom: 70px;
+        margin-left: 0px;
+        font-weight: 700;
+        font-size: 120px;
+     }
+    .sell-main .btn{
+        width: 237px;
+        height: 100px; 
+        top: 30px;
+        left: 500px;
+    }
+    /* buymain & sellmain  style end */
+    /* ++++++++++++++++++++++++++++++ */
+    /* sign-text style start */
+    .sign-text{
+        width: 80rem;
+        height: 900px;
+        
+    }
+    .sign-text h2{
+        font-size: 80px;
+        font-weight: 600;
+    }
+    .sign-text a{
+        height: 90px;
+        width: 500px;
+        padding: 29px 45px 15px 45px;
+        font-size: 62px;
+        font-weight: 600;
+    }
+    /*sign-text style end */
+    /* ++++++++++++++++++++++++++++++ */
+    /*  foooter style start */
+    .footer{
+       width: 80rem;
+       height: 750px;
+    }
+    .footer-child h3{
+       font-weight: 700;
+       font-size: 58px;
+    }
+    .footer-child p{
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .footer-logo{
+       top: -380px;
+       left: 0px;
+    }
+    
+      }
